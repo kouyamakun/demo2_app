@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.0.5'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3', '1.3.8'
@@ -45,4 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'coffee-script-source','1.8.0' 

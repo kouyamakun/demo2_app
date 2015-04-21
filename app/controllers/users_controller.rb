@@ -36,6 +36,7 @@ class UsersController < ApplicationController
       end
     end
   end
+  #render action:アクション ほかのコントローラーのテンプレートを表示
 
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
@@ -69,6 +70,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:name, :email)
+      params.require(:user).permit(:name, :email,:tell)
     end
 end
